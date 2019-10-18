@@ -1,32 +1,8 @@
-condor-mk
-=========
-
-A helper to send jobs to condor at INMEGEN cluster.
 
 # Usage
 
 Create a job.
 
-```
-condor
-```
-
-Send pending jobs to the cluster.
-
-
-```
-condor clean
-# edit to ask for anything else than default resources
-$EDITOR condor.header
-condor submit
-```
-
-Customize jobs to send to the cluster.
-
-```
-bin/targets | [filter] | condor-sub condor.header > condor.sub
-condor submit
-```
 
 # Options
 
@@ -44,7 +20,7 @@ condor submit
 
 - [`coreutils`]( "basic file, shell and text manipulation utilities of the GNU operating system.")
 
-- [@@aditional software@@](@@software URL@@ "@@Description@@")
+- [HiC-Pro](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-015-0831-x "An optimized and flexible pipeline for Hi-C data processing")
 
 # References
 
