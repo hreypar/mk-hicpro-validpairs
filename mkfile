@@ -13,7 +13,7 @@ et  DESCRIPTION:
 #
 results/%:	data/%
 	export NPROC=6
-	mkdir `dirname $target`
+	mkdir -p `dirname $target`
 	HiC-Pro \
 		--input $prereq \
 		--output $target \
