@@ -1,0 +1,11 @@
+#!/bin/bash
+##
+## USAGE:
+## bin/targets
+
+find -L data/ \
+	-name "*.fastq.gz" \
+	-exec sh -c 'filepath=$(dirname $0) ; dirname $filepath' {} \; \
+| sed -r 's#^data/#results/#' \
+| sort -u
+
