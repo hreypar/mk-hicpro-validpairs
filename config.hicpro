@@ -43,7 +43,7 @@ BOWTIE2_LOCAL_OPTIONS =  --very-sensitive -L 20 --score-min L,-0.6,-0.2 --end-to
 ## Annotation files
 #######################################################################
 
-REFERENCE_GENOME = hg38
+REFERENCE_GENOME = genome
 GENOME_SIZE = annotation-files/hg38.chrom.sizes.txt
 
 #######################################################################
