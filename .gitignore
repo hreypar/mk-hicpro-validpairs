@@ -8,8 +8,6 @@ CTestTestfile.cmake
 
 data
 results
-Bowtie2Index
-WholeGenomeFasta
 
 *.DS_Store
 .AppleDouble
