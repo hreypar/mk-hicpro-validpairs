@@ -12,7 +12,6 @@ et  DESCRIPTION:
 # Run HiC-Pro alignment.
 #
 results/%:	data/%
-	export NPROC=6
 	mkdir -p `dirname $target`
 	HiC-Pro \
 		--input $prereq \
