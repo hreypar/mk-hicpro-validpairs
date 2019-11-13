@@ -8,6 +8,7 @@ CTestTestfile.cmake
 
 data
 results
+references
 
 *.DS_Store
 .AppleDouble
