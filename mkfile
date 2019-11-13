@@ -17,5 +17,9 @@ results/%:	data/%
 		--input $prereq \
 		--output $target \
 		--conf config.hicpro \
-		--step mapping
+		--step mapping \
+		--step proc_hic \
+		--step quality_checks \
+		--step merge_persample \
+		--step build_contact_maps
 
