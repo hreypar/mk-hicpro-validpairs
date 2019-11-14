@@ -20,6 +20,5 @@ results/%:	data/%
 		--step mapping \
 		--step proc_hic \
 		--step quality_checks \
-		--step merge_persample \
-		--step build_contact_maps
+		--step merge_persample
 
