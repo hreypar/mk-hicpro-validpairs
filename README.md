@@ -1,11 +1,6 @@
 
 # Usage
 
-From HiC-Pro documentation: 
-
-Each mate is independantly aligned on the reference genome. The mapping is performed in two steps. First, the reads are aligned using an end-to-end aligner. Second, reads spanning the ligation junction are trimmmed from their 3' end, and aligned back on the genome.
- 
-Aligned reads for both fragment mates are then paired in a single paired-end BAM file. Singletons and multi-hits can be discarded according the confirguration parameters. Note that if if the LIGATION_SITE parameter in the not defined, HiC-Pro will skip the second step of mapping.
 
 
 # Options
