@@ -19,6 +19,5 @@ results/%:	data/%
 		--conf config.hicpro \
 		--step mapping \
 		--step proc_hic \
-		--step quality_checks \
-		--step merge_persample
+		--step quality_checks
 
