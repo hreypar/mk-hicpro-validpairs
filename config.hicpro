@@ -13,7 +13,7 @@ RAW_DIR = rawdata
 #######################################################################
 ## SYSTEM AND SCHEDULER - Start Editing Here !!
 #######################################################################
-N_CPU = 5
+N_CPU = 8
 LOGFILE = MCF-data-hicpro.log
 
 #JOB_NAME = 
@@ -35,7 +35,9 @@ PAIR2_EXT = _2
 
 MIN_MAPQ = 10
 
-BOWTIE2_IDX_PATH = references/Homo_sapiens/NCBI/GRCh38/Sequence/Bowtie2Index
+# note that symlinks to bowtie2 index won't work, path must be absolute.
+#
+BOWTIE2_IDX_PATH = /home/hreyes/reference/Homo_sapiens/NCBI/GRCh38/Sequence/Bowtie2Index
 BOWTIE2_GLOBAL_OPTIONS = --very-sensitive -L 30 --score-min L,-0.6,-0.2 --end-to-end --reorder
 BOWTIE2_LOCAL_OPTIONS =  --very-sensitive -L 20 --score-min L,-0.6,-0.2 --end-to-end --reorder
 
