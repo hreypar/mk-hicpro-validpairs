@@ -17,7 +17,7 @@
 
 - [`findutils`](https://www.gnu.org/software/findutils/ "Basic directory searching utilities of the GNU operating system.")
 
-- [`coreutils`]( "basic file, shell and text manipulation utilities of the GNU operating system.")
+- [`coreutils`](https://www.gnu.org/software/coreutils/ "basic file, shell and text manipulation utilities of the GNU operating system.")
 
 - [HiC-Pro](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-015-0831-x "An optimized and flexible pipeline for Hi-C data processing")
 
