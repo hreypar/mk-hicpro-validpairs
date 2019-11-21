@@ -1,17 +1,17 @@
+# mk-hicpro-validpairs #
 
-# Usage
+Run HiC-Pro up to generation of `validPairs` files using `mk`. 
+
+## Usage ##
 
 
 
-# Options
+## Options ##
 
 @@How can you customize the analysis using environment vars or config.mk@@
 
-# Design considerations
 
-@@What was taken into account to build this project?@@
-
-# Requirements
+## Requirements ##
 
 - [`mk`](http://doc.cat-v.org/bell_labs/mk/mk.pdf "A successor for `make`.")
 
@@ -21,8 +21,8 @@
 
 - [HiC-Pro](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-015-0831-x "An optimized and flexible pipeline for Hi-C data processing")
 
-# References
 
-@@What documents did you used for making this module?@@
+## References ##
 
-@@Where is the documentation for the software used?@@
+- [HiC-Pro reference manual](https://nservant.github.io/HiC-Pro/MANUAL.html)
+
