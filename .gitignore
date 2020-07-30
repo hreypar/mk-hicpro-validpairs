@@ -10,6 +10,9 @@ data
 results
 references
 
+condor.sub
+condor.header
+
 *.DS_Store
 .AppleDouble
 .LSOverride
